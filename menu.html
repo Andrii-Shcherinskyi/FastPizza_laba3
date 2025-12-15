@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - FastPizza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🍕 FastPizza</div>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Наше Меню</h1>
+        <div class="catalog">
+            <article class="product">
+                <img src="images/pizza2.jpg" alt="Піца Пепероні" width="200">
+                <h3>Пепероні</h3>
+                <p>Соус, сир моцарела, пепероні.</p>
+                <p><strong>250 грн</strong></p>
+                <button>В кошик</button>
+            </article>
+            <article class="product">
+                <img src="images/pizza3.jpg" alt="Піца 4 Сири" width="200">
+                <h3>4 Сири</h3>
+                <p>Вершковий соус, моцарела, пармезан, дорблю, чедер.</p>
+                <p><strong>280 грн</strong></p>
+                <button>В кошик</button>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FastPizza. Всі права захищено.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

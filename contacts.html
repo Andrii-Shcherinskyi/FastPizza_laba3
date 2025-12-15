@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - FastPizza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🍕 FastPizza</div>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Зв'яжіться з нами</h1>
+        <p>Ми знаходимось за адресою: м. Київ, вул. Політехнічна, 1.</p>
+
+        <section class="contact-form">
+            <h2>Написати нам</h2>
+            <form action="#" method="post">
+                <label for="name">Ваше ім'я:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Іван"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="ivan@mail.com"><br><br>
+
+                <label for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FastPizza. Всі права захищено.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
